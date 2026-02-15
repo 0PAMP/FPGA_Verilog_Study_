@@ -78,35 +78,12 @@ By changing the Opcode through switch (`sw[2:0]`) manipulation and adjusting the
 Arty A7 보드에 비트스트림을 올리고 구동하는 실제 테스트 영상입니다.
 스위치(`sw[2:0]`) 조작을 통해 Opcode를 변경하고, 버튼으로 입력값 `A`와 `B`를 조절할 때마다 7-segment에 즉각적으로 연산 결과가 반영됩니다.
 
-[[Add]](./media/Add.mp4)
-<video src="./media/Add.mp4" controls width="100%"></video>
-`0x0005 + 0x0005 = 0x000A`
+### 📺 Watch the Full Demo Video (전체 구동 영상 시청)
 
-[[Subtract]](./media/Sub.mp4)
-<video src="./media/Sub.mp4" controls width="100%"></video>
-`0x000A - 0x0005 = 0x0005`
+[![Arty A7 ALU Demo](https://img.youtube.com/vi/영상_아이디/0.jpg)](https://www.youtube.com/watch?v=영상_아이디)
 
-[[Left Shift]](./media/L.mp4)
-<video src="./media/L.mp4" controls width="100%"></video>
-`0x000F -> 0x001E`
-
-[[Right Shift]](./media/R.mp4)
-<video src="./media/R.mp4" controls width="100%"></video>
-`0x000F -> 0x0007`
-
-[[Multiply]](./media/Mul.mp4)
-<video src="./media/Mul.mp4" controls width="100%"></video>
-`(0x00FF + 0x00FF = 0x01FE)`  
-`0x00FF * 0x00FF = 0xFE01`
-
-[[AND]](./media/And.mp4)
-<video src="./media/And.mp4" controls width="100%"></video>
-`(0x00FF + 0x00FF = 0x01FE)`  
-`0x00FF & 0x00FF = 0x00FF`
-
-[[XOR]](./media/Xor.mp4)
-<video src="./media/Xor.mp4" controls width="100%"></video>
-`0x000F ^ 0x0001 = 0x000E`
+_Click the image above to watch the video on YouTube._
+_위 이미지를 클릭하면 유튜브에서 전체 영상을 시청할 수 있습니다._
 
 ---
 
