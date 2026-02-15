@@ -65,7 +65,7 @@ We confirmed that addition, subtraction, and logic operations, **especially the 
 Vivado Simulator를 이용해 작성한 `top_tb.v`의 Waveform 결과입니다.
 **특히 최댓값 연산(`0xFF * 0xFF = 0xFE01`)**을 포함하여 덧셈, 뺄셈, 논리 연산이 클럭에 맞춰 정확하게 수행되는 것을 확인했습니다.
 
-![Simulation Waveform](./media/simulation_Result.png)
+![Simulation Waveform](./media/Simulation_Result.png)
 _Simulation Result_
 
 ---
