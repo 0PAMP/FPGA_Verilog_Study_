@@ -1,0 +1,28 @@
+# Vivado temporary files
+*.cache/
+*.hw/
+*.sim/
+*.runs/
+*.ip_user_files/
+*.gen/
+
+# SDK/Vitis files
+*.sdk/
+*.vitis/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+*.nky
+*.prm
+
+# --- Vivado ---
+*.log
+*.jou
+*.str
+.Xil/
+*.pdi
+
+# --- Bitstream ---
+*.bit
